@@ -1,2 +1,2 @@
 # ds-cloud
-Portfolio as a Cloud engineer
+Portfolio for a cloud engineer
