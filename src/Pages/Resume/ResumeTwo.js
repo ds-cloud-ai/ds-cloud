@@ -48,13 +48,24 @@ const ResumeTwo = () => {
                 {/* Knowledges items */}
 
                 <div className="flex gap-y-5 gap-x-2.5 flex-wrap">
-                  <button className="resume-btn">Digital Design</button>
-                  <button className="resume-btn">Marketing</button>
-                  <button className="resume-btn">Social Media</button>
-                  <button className="resume-btn">Print</button>
-                  <button className="resume-btn">Time Management</button>
-                  <button className="resume-btn">Flexibility</button>
-                  <button className="resume-btn">Print</button>
+                  <button className="resume-btn">Python</button>
+                  <button className="resume-btn">PostgreSQL</button>
+                  <button className="resume-btn">MySQL</button>
+                  <button className="resume-btn">MongoDB</button>
+                  <button className="resume-btn">CI/CD</button>
+                  <button className="resume-btn">Jenkins</button>
+                  <button className="resume-btn">Docker</button>
+                  <button className="resume-btn">Kubernetes</button>
+                  <button className="resume-btn">Terraform</button>
+                  <button className="resume-btn">AWS</button>
+                  <button className="resume-btn">Azure</button>
+                  <button className="resume-btn">GCP</button>
+                  <button className="resume-btn">Claude Code</button>
+                  <button className="resume-btn">n8n</button>
+                  <button className="resume-btn">Zapier</button>
+                  <button className="resume-btn">Helm</button>
+                  <button className="resume-btn">HIPAA</button>
+                  <button className="resume-btn">SOC2</button>
                 </div>
               </div>
 

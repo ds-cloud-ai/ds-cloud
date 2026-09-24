@@ -71,35 +71,27 @@ const CommonPortfilo = ({ condition, items }) => {
                 </li>
                 <li
                   className={`${
-                    test === "Video" ? "text-[#FA5252]" : "fillter-btn"
+                    test === "DevOps" ? "text-[#FA5252]" : "fillter-btn"
                   } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Video")}
+                  onClick={() => handleSearch("DevOps")}
                 >
-                  Video
+                  DevOps
                 </li>
                 <li
                   className={`${
-                    test === "Web Design" ? "text-[#FA5252]" : "fillter-btn"
+                    test === "Cloud" ? "text-[#FA5252]" : "fillter-btn"
                   } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Web Design")}
+                  onClick={() => handleSearch("Cloud")}
                 >
-                  Web Design
+                  Cloud
                 </li>
                 <li
                   className={`${
-                    test === "Logo" ? "text-[#FA5252]" : "fillter-btn ml-0"
+                    test === "AI Automation" ? "text-[#FA5252]" : "fillter-btn"
                   } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Logo")}
+                  onClick={() => handleSearch("AI Automation")}
                 >
-                  Logo
-                </li>
-                <li
-                  className={`${
-                    test === "UI/UX" ? "text-[#FA5252]" : "fillter-btn"
-                  }  `}
-                  onClick={() => handleSearch("UI/UX")}
-                >
-                  Graphic Design
+                  AI Automation
                 </li>
               </ul>
 
@@ -163,12 +155,12 @@ const CommonPortfilo = ({ condition, items }) => {
                   <h2 className="text-[#ef4060] dark:hover:text-[#FA5252] text-4xl text-center font-bold">
                     {singleData.tag} Project
                   </h2>
-                  <div className="grid grid-cols-1 lg:grid-cols-2 my-6">
+                  {/* <div className="grid grid-cols-1 lg:grid-cols-2 my-6">
                     <div className="space-y-2">
                       <p className="dark:text-white flex items-center text-[15px]  sm:text-lg ">
                         <FiFilePlus className="sm:text-lg hidden sm:block mr-2  md:text-xl" />
                         Project :&nbsp;{" "}
-                        <span className="font-medium "> Website</span>
+                        <span className="font-medium "></span>
                       </p>
                       <p className="dark:text-white flex items-center text-[15px]  sm:text-lg ">
                         <FiCode className="text-lg mr-2 hidden sm:block " />
@@ -200,15 +192,17 @@ const CommonPortfilo = ({ condition, items }) => {
                         </span>
                       </p>
                     </div>
-                  </div>
+                  </div> */}
                   <p className="dark:text-white  text-2line font-normal text-[15px] sm:text-sm  ">
                     {singleData?.description}
                   </p>
-                  <img
-                    className="w-full md:h-[450px]  h-auto object-cover rounded-xl mt-6"
-                    src={singleData.img}
-                    alt=""
-                  />
+                  <div className="w-full h-[450px] overflow-y-scroll no-scrollbar">
+                    <img
+                      className="w-full h-auto object-cover rounded-xl mt-6"
+                      src={singleData.img}
+                      alt=""
+                    /> {/* md:h-[450px] */}
+                  </div>
                 </div>
               </div>
             </Modal>

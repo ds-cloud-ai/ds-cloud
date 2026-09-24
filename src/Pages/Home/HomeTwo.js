@@ -3,7 +3,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FiMoon, FiSun } from "react-icons/fi";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import UseData from "../../Hooks/UseData";
-import logo from "../../assets/images/logo/logo.png";
+import logo from "../../assets/images/logo/logo001.png";
 import HeaderTwo from "../../Share/HeaderTwo";
 import HomeCard from "../../Share/HomeCard";
 import PageTitle from "../../Share/PageTitle";
@@ -29,7 +29,7 @@ const HomeTwo = () => {
             {/* website logo */}
 
             <Link to="/">
-              <img className="h-[26px] lg:h-[32px]" src={logo} alt="logo" />
+              <img className="h-[52px] lg:h-[64px]" src={logo} alt="logo" />
             </Link>
             <div className="flex items-center">
               {/* dark and light mode button */}

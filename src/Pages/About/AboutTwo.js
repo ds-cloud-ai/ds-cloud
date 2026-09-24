@@ -1,4 +1,6 @@
 import React from "react";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
 import UseData from "../../Hooks/UseData";
 import Footer from "../../Share/Footer";
 import "../../Share/Style.css";
@@ -30,15 +32,15 @@ const AboutTwo = () => {
                 <div className="col-span-12 space-y-2.5">
                   <div className="lg:mr-16">
                     <p className="text-gray-lite  dark:text-color-910 leading-7">
-                      I'm Creative Director and UI/UX Designer from Sydney,
-                      Australia, working in web development and print media. I
-                      enjoy turning complex problems into simple, beautiful and
-                      intuitive designs.
+                      As a Cloud & DevOps Engineer with 10+ years of experience, I help companies build 
+                      reliable cloud infrastructure, DevOps platforms, infrastructure automation, and highly 
+                      available systems using AWS, Kubernetes, Terraform, CI/CD, and modern security and 
+                      monitoring practices.
                     </p>
                     <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                      My aim is to bring across your message and identity in the
-                      most creative way. I created web design for many famous
-                      brand companies.
+                      My experience across AWS, Azure, GCP, Kubernetes, Terraform, Docker, CI/CD, monitoring, 
+                      and security allows me to work not only as a DevOps Engineer but also as an AI-Augmented Platform 
+                      Engineer, helping teams modernize how they build, deploy, review, secure, and operate software.
                     </p>
                   </div>
                 </div>
@@ -48,15 +50,15 @@ const AboutTwo = () => {
               <div className="col-span-12 space-y-2.5">
                 <div className="lg:mr-16">
                   <p className="text-gray-lite  dark:text-color-910 leading-7">
-                    I'm Creative Director and UI/UX Designer from Sydney,
-                    Australia, working in web development and print media. I
-                    enjoy turning complex problems into simple, beautiful and
-                    intuitive designs.
+                    As a Cloud & DevOps Engineer with 10+ years of experience, I help companies build 
+                    reliable cloud infrastructure, DevOps platforms, infrastructure automation, and highly 
+                    available systems using AWS, Kubernetes, Terraform, CI/CD, and modern security and 
+                    monitoring practices.
                   </p>
                   <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                    My aim is to bring across your message and identity in the
-                    most creative way. I created web design for many famous
-                    brand companies.
+                    My experience across AWS, Azure, GCP, Kubernetes, Terraform, Docker, CI/CD, monitoring, 
+                    and security allows me to work not only as a DevOps Engineer but also as an AI-Augmented Platform 
+                    Engineer, helping teams modernize how they build, deploy, review, secure, and operate software.
                   </p>
                 </div>
               </div>
@@ -80,7 +82,7 @@ const AboutTwo = () => {
 
           <div className="px-2 sm:px-5 md:px-10 lg:px-14 ">
             {/* Slick Slider call here  */}
-            <SliderCommon />
+            {/* <SliderCommon /> */}
           </div>
 
           {/* Common Footer call here */}

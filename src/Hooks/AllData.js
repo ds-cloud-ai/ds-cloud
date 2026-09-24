@@ -1,24 +1,24 @@
 import { useEffect, useState } from "react";
 // for work_images
-import work1 from "../assets/images/work_images/1.jpg";
-import work2 from "../assets/images/work_images/2.jpg";
-import work3 from "../assets/images/work_images/3.jpg";
-import work4 from "../assets/images/work_images/4.jpg";
-import work5 from "../assets/images/work_images/5.jpg";
-import work6 from "../assets/images/work_images/6.jpg";
-import work7 from "../assets/images/work_images/7.jpg";
-import work8 from "../assets/images/work_images/8.jpg";
-import work9 from "../assets/images/work_images/9.jpg";
+import work1 from "../assets/images/work_images/devops-001.jpg";
+import work2 from "../assets/images/work_images/cloud-002.jpg";
+import work3 from "../assets/images/work_images/devops-003.jpg";
+import work4 from "../assets/images/work_images/ai-automation-004.jpg";
+import work5 from "../assets/images/work_images/devops-005.jpg";
+import work6 from "../assets/images/work_images/cloud-006.jpg";
+import work7 from "../assets/images/work_images/devops-007.jpg";
+import work8 from "../assets/images/work_images/ai-automation-008.jpg";
+import work9 from "../assets/images/work_images/devops-009.jpg";
 // works small images
-import workSmall1 from "../assets/images/work_images/small/1.jpg";
-import workSmall2 from "../assets/images/work_images/small/2.jpg";
-import workSmall3 from "../assets/images/work_images/small/3.jpg";
-import workSmall4 from "../assets/images/work_images/small/4.jpg";
-import workSmall5 from "../assets/images/work_images/small/5.jpg";
-import workSmall6 from "../assets/images/work_images/small/6.jpg";
-import workSmall7 from "../assets/images/work_images/small/7.jpg";
-import workSmall8 from "../assets/images/work_images/small/8.jpg";
-import workSmall9 from "../assets/images/work_images/small/9.jpg";
+import workSmall1 from "../assets/images/work_images/small/devops-001.jpg";
+import workSmall2 from "../assets/images/work_images/small/cloud-002.jpg";
+import workSmall3 from "../assets/images/work_images/small/devops-003.jpg";
+import workSmall4 from "../assets/images/work_images/small/ai-automation-004.jpg";
+import workSmall5 from "../assets/images/work_images/small/devops-005.jpg";
+import workSmall6 from "../assets/images/work_images/small/cloud-006.jpg";
+import workSmall7 from "../assets/images/work_images/small/devops-007.jpg";
+import workSmall8 from "../assets/images/work_images/small/ai-automation-008.jpg";
+import workSmall9 from "../assets/images/work_images/small/devops-009.jpg";
 // blog post images
 import blog6 from "../assets/images/blog_images/6.jpg";
 import blog4 from "../assets/images/blog_images/4.jpg";
@@ -139,129 +139,129 @@ const AllData = () => {
   const workItems = [
     {
       id: "1",
-      tag: "UI/UX",
-      title: "Chul urina",
+      tag: "DevOps",
+      title: "Principal DevOps Engineer", // 003
       img: work1,
       imgSmall: workSmall1,
       bg: "#FFF0F0",
-      client: "Envato",
-      langages: "Photoshop, Figma",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
+      client: "",
+      langages: "",
+      link: "",
+      linkText: "",
       description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia placeat magnam possimus iusto blanditiis pariatur labore explicabo quo repellat hic dolorum numquam asperiores, voluptatum fugiat reiciendis aspernatur, non, odio aperiam voluptas ex tempora vitae. Dolor, consequatur quidem! Quas magni distinctio dolorum dolore natus, vel numquam accusamus. Nostrum eligendi recusandae qui tempore deserunt!",
+        "Multi-Environment Kubernetes Deployment Architecture. The system implements a multi-environment GKE deployment with separate beta and production setups sharing common infrastructure. Deliverables: GCP, Kubernetes, Docker and DevOps.",
     },
     {
       id: "2",
-      tag: "Web Design",
-      title: "Aura Dione",
+      tag: "Cloud",
+      title: "Senior Cloud Consultant", // 002
       img: work2,
       imgSmall: workSmall2,
       bg: "#FFF3FC",
-      client: "Themeforest",
-      langages: "HTML, CSS, Javascript",
-      link: "https://www.themeforest.net",
-      linkText: "themeforest.net",
+      client: "",
+      langages: "",
+      link: "",
+      linkText: "",
       description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+        "Hybrid Cloud Web Application with Serverless Backend. The hybrid cloud web application combines traditional hosting with serverless backend services on Google Cloud Platform. Deliverables: GCP, Firebase, SQL, Terraform and GitHub.",
     },
     {
       id: "3",
-      tag: "Logo",
-      title: "Chul urina",
+      tag: "DevOps",
+      title: "Senior Devops Engineer", // 011
       img: work3,
       imgSmall: workSmall3,
       bg: "#FFF0F0",
-      client: "Freepik",
-      langages: "Illustrator",
-      link: "https://www.freepik.com/free-photos-vectors/market-logo",
-      linkText: "www.freepik.com",
+      client: "",
+      langages: "",
+      link: "",
+      linkText: "",
       description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+        "GitOps Deployments on AWS EKS with ArgoCD and Helm. Before: manual deployments, inconsistent environments, no audit trail, rollbacks under pressure. After: automated, repeatable releases with full history in Git and one-command rollback. Deployments became boring, which is exactly what a deployment should be. Deliverables: CI/CD, IaC, DevOps and Kubernetes.",
     },
     {
       id: "4",
-      tag: "Video",
-      title: "Chul urina",
+      tag: "AI Automation",
+      title: "AI | n8n Developer", // 018
       img: work4,
       imgSmall: workSmall4,
       bg: "#E9FAFF",
-      client: "Envato",
-      langages: "After Effect",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
+      client: "",
+      langages: "",
+      link: "",
+      linkText: "",
       description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+        "AI Lead Qualification & Follow-Up in n8n. This project is an AI-powered lead qualification and sales follow-up system built using n8n. It automates the process of collecting, analyzing, organizing, and following up with potential customers. Deliverables: OpenAI API, n8n and Google Sheets.",
     },
     {
       id: "5",
-      tag: "UI/UX",
-      title: "Chul urina",
+      tag: "DevOps",
+      title: "Sr DevOps Engineer", // 007
       img: work5,
       imgSmall: workSmall5,
       bg: "#FFFAE9",
-      client: "Envato",
-      langages: "Photoshop",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
+      client: "",
+      langages: "",
+      link: "",
+      linkText: "",
       description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+        "Custom Healthcare API Development & HIPAA-Compliant AWS Architecture. Implemented OAuth 2.0, role-based access control, encryption in transit and at rest, audit logging, secure data storage, monitoring, backups, and multi-zone availability to support HIPAA-aligned security and reliability requirements. Deliverables: AWS, HIPAA and DevOps.",
     },
     {
       id: "6",
-      tag: "Video",
-      title: "Chul urina",
+      tag: "Cloud",
+      title: "GCP Cloud Engineer", // 016
       img: work6,
       imgSmall: workSmall6,
       bg: "#F4F4FF",
-      client: "Envato",
-      langages: "Vimeo",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
+      client: "",
+      langages: "",
+      link: "",
+      linkText: "",
       description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+        "Multi-Environment CI/CD on GCP with Cloud Deploy and GKE. Built the delivery pipeline for a team shipping to GKE: GitHub mirrored to Cloud Source Repositories, Cloud Build running tests and pushing images to Artifact Registry, then Google Cloud Deploy promoting releases through staging into production with a manual approval gate. Deliverables: CI/CD, GCP, IaC, Kubernetes and DevOps.",
     },
     {
       id: "7",
-      tag: "UI/UX",
-      title: "Chul urina",
+      tag: "DevOps",
+      title: "DevSecOps Engineer",  // 008
       img: work7,
       imgSmall: workSmall7,
       bg: "#FFF0F8",
-      client: "Envato",
-      langages: "Photoshop",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
+      client: "",
+      langages: "",
+      link: "",
+      linkText: "",
       description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+        "SOC 2 Compliance for a Healthcare Platform on AWS (99.99% Uptime). I rebuilt it across multiple AZs with Dockerized services, RDS for MSSQL with synchronous replication, S3 plus file server storage, VPN back to on-premise, WAF, and role-based access. Deliverables: SOC2, Docker, AWS, Amazon Virtual Private Cloud and HIPAA.",
     },
     {
       id: "8",
-      tag: "Web Design",
-      title: "Chul urina",
+      tag: "AI Automation",
+      title: "Cloud AI Developer", // 017
       img: work8,
       imgSmall: workSmall8,
       bg: "#FFF0F8",
-      client: "Envato",
-      langages: "HTML, CSS, Javascript",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
+      client: "",
+      langages: "",
+      link: "",
+      linkText: "",
       description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+        "AI Voice Processing Automation in Make.com. This project is an AI-powered voice processing workflow developed using Make.com. It automates the complete process of receiving audio, converting speech into text, analyzing transcripts, generating structured content, storing results, and notifying relevant team members. Deliverables: OpenAI API and Slack",
     },
     {
       id: "9",
-      tag: "Logo",
-      title: "Chul urina",
+      tag: "DevOps",
+      title: "Senior DevOps Engineer", // 014
       img: work9,
       imgSmall: workSmall9,
       bg: "#FCF4FF",
-      client: "Feepik",
-      langages: "Figma",
-      link: "https://www.freepik.com/free-photos-vectors/market-logo",
-      linkText: "www.freepik.com",
+      client: "",
+      langages: "",
+      link: "",
+      linkText: "",
       description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+        "GDPR-Compliant AWS Architecture with Full CI/CD Automation. I built the account & identity structure, application layer, data protection, delivery pipeline and security & monitoring. Deliverables: DevOps, AWS, Cloud Security and AWS CodePipeline.",
     },
   ];
   const [data, setData] = useState(workItems);
@@ -362,18 +362,18 @@ const AllData = () => {
       link: "/works",
       icon: <FiCodesandbox />,
     },
-    {
-      id: "04",
-      name: "Blogs",
-      link: "/blogs",
-      icon: <FaBlogger />,
-    },
-    {
-      id: "05",
-      name: "Contact",
-      link: "/contact",
-      icon: <RiContactsBookLine />,
-    },
+    // {
+    //   id: "04",
+    //   name: "Blogs",
+    //   link: "/blogs",
+    //   icon: <FaBlogger />,
+    // },
+    // {
+    //   id: "05",
+    //   name: "Contact",
+    //   link: "/contact",
+    //   icon: <RiContactsBookLine />,
+    // },
   ];
 
   // Menu items for Homepage Two
@@ -396,18 +396,18 @@ const AllData = () => {
       link: "/works",
       icon: <FiCodesandbox />,
     },
-    {
-      id: "04",
-      name: "Blogs",
-      link: "/blogs",
-      icon: <FaBlogger />,
-    },
-    {
-      id: "05",
-      name: "Contact",
-      link: "/contact",
-      icon: <RiContactsBookLine />,
-    },
+    // {
+    //   id: "04",
+    //   name: "Blogs",
+    //   link: "/blogs",
+    //   icon: <FaBlogger />,
+    // },
+    // {
+    //   id: "05",
+    //   name: "Contact",
+    //   link: "/contact",
+    //   icon: <RiContactsBookLine />,
+    // },
   ];
 
   // Slider image for Clients
@@ -429,48 +429,48 @@ const AllData = () => {
     {
       id: "1",
       icon: icon,
-      title: "Ui/Ux Design",
-      des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+      title: "Cloud infrastructure",
+      des: "AWS (EKS, ECS, Fargate, Lambda, VPC, IAM, Aurora, RDS, S3, CloudFront), GCP (GKE, Cloud Armor, managed databases), Azure (Azure DevOps, AKS), Oracle Cloud.",
       color: "#D566FF",
       bg: "#FCF4FF",
     },
     {
       id: "2",
       icon: icon1,
-      title: "App Development",
-      des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+      title: "Kubernetes",
+      des: "Cluster design and management, Helm charts, HPA autoscaling, NGINX and Traefik ingress, Rancher, multi environment setups on GCP and AWS.",
       color: "#DDA10C",
       bg: "#FEFAF0",
     },
     {
       id: "3",
       icon: icon2,
-      title: "Photography",
-      des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+      title: "CI/CD",
+      des: "GitHub Actions, GitLab CI, Jenkins, CircleCI, Azure Pipelines, AWS CodePipeline, CodeBuild, CodeDeploy, TeamCity.",
       color: "#8774FF",
       bg: "#FCF4FF",
     },
     {
       id: "4",
       icon: icon3,
-      title: "Photography",
-      des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+      title: "Monitoring and observability",
+      des: "Prometheus, Grafana, ELK, CloudWatch, New Relic, Nagios, Telegraf, InfluxDB, alerting and on call runbooks.",
       color: "#FF6080",
       bg: "#FFF4F4",
     },
     {
       id: "5",
       icon: icon4,
-      title: "Managment",
-      des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+      title: "Security and compliance",
+      des: "HIPAA and SOC 2 aligned infrastructure, IAM hardening, VPN, network segmentation.",
       color: "#FF75D8",
       bg: "#FFF0F8",
     },
     {
       id: "6",
       icon: icon5,
-      title: "Web Development",
-      des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+      title: "Infrastructure as Code",
+      des: "Terraform, Ansible, AWS CloudFormation, Puppet, Chef.",
       color: "#269FFF",
       bg: "#F3FAFF",
     },
@@ -480,52 +480,68 @@ const AllData = () => {
   const educationArray = [
     {
       id: 1,
-      date: "2021-2023",
-      title: "Ph.D in Horriblensess ",
-      place: "ABC University, Los Angeles, CA",
+      date: "2020 - Present",
+      title: "AWS Certified SysOps Administrator",
+      place: "Amazon Web Services (AWS)",
       bg: "#FFF4F4",
     },
 
     {
       id: 2,
       date: "2019 - Present",
-      title: "Sr. Software Tester",
-      place: "Google Inc.",
+      title: "Red Hat Certified Engineer (RHCE)",
+      place: "Red Hat, Inc.",
       bg: "#FFF1FB",
     },
 
     {
       id: 3,
-      date: "2021",
-      title: "Best Developer ",
-      place: "University Of Melbourne, NA",
+      date: "2012 - 2016",
+      title: "MSc in Computer Science",
+      place: "The Hong Kong University of Science and Technology",
       bg: "#FFF4F4",
+    },
+
+    {
+      id: 4,
+      date: "2007 - 2011",
+      title: "BEng in Computer Science",
+      place: "Universidade do Rio de Janeiro",
+      bg: "#FFF1FB",
     },
   ];
   // experiencesArray items for Resume page
   const experiencesArray = [
     {
       id: 1,
-      date: "2017-2021",
-      title: "Computer Science",
-      place: "Imperialize Technical Institute",
+      date: "2023 - 2025",
+      title: "Senior Cloud Engineer",
+      place: "Century Communities",
       bg: "#EEF5FA",
     },
 
     {
       id: 2,
-      date: "2015-2017",
-      title: "Cr. Web Developer",
-      place: "ib-themes ltd.",
+      date: "2020 - 2022",
+      title: "Senior DevOps Engineer",
+      place: "Tripleseat",
       bg: "#F2F4FF",
+    },
+    
+    {
+      id: 3,
+      date: "2018",
+      title: "Top Rated DevOps Engineer",
+      place: "Upwork Inc",
+      bg: "#EEF5FA",
     },
 
     {
-      id: 3,
-      date: "2008",
-      title: "Best Writter",
-      place: "Online Typodev Soluation Ltd.",
-      bg: "#EEF5FA",
+      id: 4,
+      date: "2017 - 2018",
+      title: "DevOps Engineer",
+      place: "Zazmic Inc",
+      bg: "#F2F4FF",
     },
   ];
   // awardsArray items for Resume page
@@ -560,26 +576,38 @@ const AllData = () => {
     {
       id: "01",
       color: "#FF6464",
-      name: "Web Design",
+      name: "AWS",
       number: "80",
     },
     {
       id: "02",
       color: "#9272D4",
-      name: "Mobile App ",
-      number: "95",
+      name: "GCP",
+      number: "85",
     },
     {
       id: "03",
       color: "#5185D4",
-      name: "Illustrator",
-      number: "65",
+      name: "Azure",
+      number: "85",
     },
     {
-      id: "03",
+      id: "04",
       color: "#CA56F2",
-      name: "Photoshope",
-      number: "75",
+      name: "Kubernetes",
+      number: "95",
+    },
+        {
+      id: "05",
+      color: "#218536",
+      name: "Terraform",
+      number: "90",
+    },
+    {
+      id: "06",
+      color: "#CA962C",
+      name: "AI Automation",
+      number: "85",
     },
   ];
 
