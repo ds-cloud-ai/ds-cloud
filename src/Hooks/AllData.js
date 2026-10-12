@@ -488,7 +488,7 @@ const AllData = () => {
 
     {
       id: 2,
-      date: "2019 - Present",
+      date: "2018 - Present",
       title: "Red Hat Certified Engineer (RHCE)",
       place: "Red Hat, Inc.",
       bg: "#FFF1FB",
@@ -530,7 +530,7 @@ const AllData = () => {
     
     {
       id: 3,
-      date: "2018",
+      date: "2019",
       title: "Top Rated DevOps Engineer",
       place: "Upwork Inc",
       bg: "#EEF5FA",
