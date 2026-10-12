@@ -1,7 +1,7 @@
 import React from "react";
 import userImage from "../../assets/images/about/avatar.jpg";
 import downloadIcon from "../../assets/images/download.png";
-import cvFile from "../../assets/images/cv.webp";
+import cvFile from "../../assets/images/cv.pdf";
 import {
   FaFacebookF,
   FaTwitter,

@@ -13,7 +13,7 @@ const Footer = ({ bg, condition }) => {
       className="overflow-hidden rounded-b-2xl"
     >
       <p className="text-center py-6 text-gray-lite  dark:text-color-910 ">
-        © 2026 All Rights Reserved
+        {/* © 2026 All Rights Reserved */}
          {/* by{" "} */}
         {/* <a
           className="hover:text-[#FA5252] duration-300 transition"
@@ -23,7 +23,7 @@ const Footer = ({ bg, condition }) => {
         >
           ib-themes
         </a> */}
-        .
+        {/* . */}
       </p>
     </footer>
   );
