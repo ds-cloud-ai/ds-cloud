@@ -1,5 +1,5 @@
 import React from "react";
-import cvFile from "../assets/images/cv.webp";
+import cvFile from "../assets/images/cv.pdf";
 import {
   FaCalendarAlt,
   FaDribbble,
@@ -27,7 +27,7 @@ const HomeCard = () => {
         {/* Social card */}
         <div className="pt-[100px] pb-8">
           <h1 className="mt-6 mb-1 text-5xl font-semibold  dark:text-white">
-            Dolynster Sidorov
+            Dolynster Santos
           </h1>
           <h3 className="mb-4 text-[#7B7B7B] inline-block dark:bg-[#1D1D1D] px-5 py-1.5 rounded-lg dark:text-[#A6A6A6]  ">
             Cloud & DevOps Engineer | AWS,GCP,Azure | Kubernetes | Terraform | AI Automation
@@ -93,7 +93,7 @@ const HomeCard = () => {
                   <a
                     className="hover:text-[#FA5252] duration-300 transition"
                   >
-                    +1 (920) 309-6223
+                    +63 997 698 9307
                   </a>
                 </p>
               </div>
@@ -150,7 +150,7 @@ const HomeCard = () => {
                 <p className="dark:text-white break-all">
                   <a
                     className="hover:text-[#FA5252] duration-300 transition"
-                    href="https://discordapp.com/users/1548830407695273984"
+                    href="https://discordapp.com/"
                     target="_blank"
                   >
                   dolynster
